@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    line-height: 1.6;
+}
+
+
+.banner {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+
+.locallogo {
+    background-color: black;
+    text-align: center;
+    padding:20px;
+}
+
+.logo img {
+    width: 150px;
+    gap: 50px;
+}
+.comboo img {
+    max-width: 400px;
+    max-height: 100px;
+}
+
+.banner h1 {
+    font-size: 1.25em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.time img{
+    width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.assine, .assinedevflix {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.assine {
+    background-color: #00E971;
+    color: black;
+    border-radius: 4px;
+}
+
+.assinedevflix {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.aviso {
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: gray;
+}
+
+
+.assistadoseujeito {
+    background-color: #1e1e1e;
+    padding: 250px 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.conteudo img {
+    max-width: 300px;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+}
+
+.texto {
+    max-width: 500px;
+}
+
+.texto h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 1.2em;
+    color: #bbb;
+}
+
+.sessaocombodev {
+    background-color: #000000;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudocombodev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteudotexto {
+    max-width: 500px;
+    text-align: left;
+}
+
+
+.conteudotexto p {
+    font-size: 1.2em;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.imagem-conteudo1 img {
+    max-width: 700px;
+}
+
+.imagem-conteudo2 img {
+    max-width: 200px;
+}
+.sessaocombodev .assine {
+    width: auto;
+    padding: 15px 30px;
+    background-color: #00E971;
+    color: black;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.baixerecursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #1e1e2f;
+}
+
+.baixerecursos .conteudo2 {
+    display: flex;
+    align-items: center;
+}
+
+.nootebook {
+    max-width: 50%;
+    height: auto;
+    margin-right: 30px;
+}
+
+.conteudotexto2 h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.conteudotexto2 p {
+    font-size: 18px;
+    color: #cfcfcf;
+}
+
+
+.dispositivos {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #000;
+}
+
+.dispositivos h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.dispositivoss {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.dispositivo_ {
+    text-align: center;
+}
+
+.Dispositivo_ img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.Dispositivo_ p {
+    font-size: 18px;
+    color: #cfcfcf;
+}
+
+.contato {
+    padding: 50px;
+    background-color: #1e1e2f;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contato-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato-form input, .contato-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #2e2e3f;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contato-form button {
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contato-form button:hover {
+    background-color: #218838;
+}
